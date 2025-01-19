@@ -1,15 +1,13 @@
 import './App.css'
-import { Button } from '@nextui-org/react'
+import LandingPage from './views/Home'
+import CustomNavbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-      <Button color="primary">Click me!</Button>
-
-    </h1>
+    <CustomNavbar />
+      <LandingPage />
     </>
   )
 }
